@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(166, 219, 221);
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.link {
+  cursor: pointer;
+  min-width: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-right: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: rgba(119, 33, 233, 0.459);
+}
+
+.link:hover {
+  background-color: rgb(255, 81, 0);
+}

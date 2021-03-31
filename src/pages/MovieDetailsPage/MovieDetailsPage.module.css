@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.movieInfo {
+  display: block;
+  width: 80%;
+  flex-direction: row;
+  padding: 20px 20px 40px;
+  margin: 0 auto;
+  color: white;
+  border-bottom: 1px solid #2a363b;
+  background-color: rgba(44, 155, 155, 0.849);
+}
+
+.backBtn,
+.link {
+  cursor: pointer;
+  min-width: 100px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+  text-transform: uppercase;
+  border: 0;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: teal;
+}
+
+.backBtn:hover {
+  background-color: rgb(255, 81, 0);
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+/* .link {
+  text-decoration: none;
+} */

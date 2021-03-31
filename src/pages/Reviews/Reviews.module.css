@@ -1,0 +1,23 @@
+.title {
+  color: rgb(13, 20, 83);
+  text-transform: uppercase;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.list {
+  list-style: none;
+  display: block;
+  text-align: left;
+}
+
+.post {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: rgb(9, 70, 70);
+}
+.author {
+  color: rgb(241, 99, 16);
+  font-weight: 600;
+}

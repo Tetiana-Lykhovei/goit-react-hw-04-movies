@@ -1,0 +1,50 @@
+.detailBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  color: white;
+}
+
+.poster {
+  margin-right: 20px;
+  width: 300px;
+  height: 100%;
+}
+
+.detailBoxContent {
+  display: block;
+  text-align: left;
+  width: 60%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.detailBoxContent h2 {
+  color: rgb(13, 20, 83);
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.detailList {
+  list-style: none;
+  padding: 0;
+}
+
+.detailList li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.infoTitle {
+  padding: 0;
+  color: rgb(13, 20, 83);
+  flex-basis: 20%;
+}
+
+.text {
+  padding-left: 40px;
+}
